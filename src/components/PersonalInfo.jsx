@@ -16,8 +16,8 @@ export default function PersonalInfo() {
             <form className="flex flex-col gap-6">
                 <label htmlFor="name"> 
                     <div className="flex items-center justify-between">
-                        <span className="text-Marine-blue max-md:text-[0.5rem] text-sm">Name</span>
-                        <p className={`font-semibold ${isEmpty.name ? "hidden" : ""} text-Strawberry-red max-md:text-[0.5rem] text-sm`}>This field is required</p>
+                        <span className="text-Marine-blue max-md:text-[0.6rem] text-sm">Name</span>
+                        <p className={`font-semibold ${isEmpty.name ? "hidden" : ""} text-Strawberry-red max-md:text-[0.6rem] text-sm`}>This field is required</p>
                     </div>
                     <input
                     placeholder="e.g. Stephen King"
@@ -31,8 +31,8 @@ export default function PersonalInfo() {
                 </label>
                 <label htmlFor="email">
                     <div className="flex items-center justify-between">
-                        <span className="text-Marine-blue max-md:text-[0.5rem] text-sm">Email Address</span>
-                        <p className={`font-semibold ${isEmpty.email ? "hidden" : ""} text-Strawberry-red max-md:text-[0.5rem] text-sm`}>This field is required</p>
+                        <span className="text-Marine-blue max-md:text-[0.6rem] text-sm">Email Address</span>
+                        <p className={`font-semibold ${isEmpty.email ? "hidden" : ""} text-Strawberry-red max-md:text-[0.6rem] text-sm`}>This field is required</p>
                     </div>
                     <input
                     placeholder="e.g. stephenking@lorem.com"
@@ -46,8 +46,8 @@ export default function PersonalInfo() {
                 </label>
                 <label htmlFor="phone">
                     <div className="flex items-center justify-between">
-                        <span className="text-Marine-blue max-md:text-[0.5rem] text-sm">Phone Number</span>
-                        <p className={`font-semibold ${isEmpty.phone ? "hidden" : ""} text-Strawberry-red max-md:text-[0.5rem] text-sm`}>This field is required</p>
+                        <span className="text-Marine-blue max-md:text-[0.6rem] text-sm">Phone Number</span>
+                        <p className={`font-semibold ${isEmpty.phone ? "hidden" : ""} text-Strawberry-red max-md:text-[0.6rem] text-sm`}>This field is required</p>
                     </div>
                     <input
                     placeholder="e.g. +1 234 567 890"
