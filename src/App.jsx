@@ -75,7 +75,7 @@ export default function App() {
   return (
     <FormContext.Provider value={{ formData, updateForm, setCurrentForm, isEmpty }}>
       <div className='md:flex min-h-svh flex-row relative md:items-center'>
-        <div className="flex justify-between max-md:min-h-svh max-md:flex-col md:h-[700px] md:w-[60vw] md:bg-White mx-auto md:p-4 md:rounded-xl">
+        <div className="flex justify-between max-md:min-h-svh max-md:flex-col md:h-[560px] mx-2 lg:w-[60vw] md:bg-White mx-auto md:p-4 md:rounded-xl">
           <Tab currentForm={currentForm} />
           <div className='max-md:shadow-2xl max-md:absolute max-md:mx-6 md:w-[70%] left-0 right-0 flex flex-col justify-between z-10 max-md:top-[12%]'>
             {Form[currentForm]}
