@@ -47,7 +47,7 @@ export default function PersonalInfo() {
                 <label htmlFor="phone">
                     <div className="flex items-center justify-between">
                         <span className="text-Marine-blue max-md:text-[0.6rem] text-sm">Phone Number</span>
-                        <p className={`font-semibold ${isEmpty.phone ? "hidden" : ""} text-Strawberry-red max-md:text-[0.6rem] text-sm`}>This field is required</p>
+                        <p className={`font-semibold ${isEmpty.phone ? "hidden" : ""} text-Strawberry-red max-md:text-[0.6rem] text-sm`}>Enter a valid number</p>
                     </div>
                     <input
                     placeholder="e.g. +1 234 567 890"
